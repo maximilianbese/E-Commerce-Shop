@@ -1,9 +1,9 @@
 <article class="bg-surface rounded-2xl overflow-hidden">
-  <img src="/images/products/vase-geriffelt.webp" alt="Geriffelte Vase" />
+  <img [src]="product().imageUrl" [alt]="product().name" class="w-full aspect-5/6 object-cover" />
 
   <div class="p-5 flex flex-col gap-2">
-    <h2 class="text-2xl font-heading text-brand-dark font-semibold">Vase geriffelt</h2>
-    <p class="font-semibold text-lg">10,00 €</p>
+    <h2 class="text-2xl font-heading text-brand-dark font-semibold">{{ product().name }}</h2>
+    <p class="font-semibold text-lg">{{ product().price | currency: 'EUR' }}</p>
     <app-button>In den Warenkorb</app-button>
   </div>
 </article>
