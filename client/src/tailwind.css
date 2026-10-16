@@ -1,4 +1,6 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/nunito-sans';
 
 @theme {
   --color-brand: #8e6c4d;
@@ -7,4 +9,7 @@
   --color-surface: #e8d3bf;
   --color-accent: #8a9a7b;
   --color-foreground: #3b2a1a;
+
+  --font-heading: 'Fraunces Variable', serif;
+  --font-body: 'Nunito Sans Variable', sans-serif;
 }
