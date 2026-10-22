@@ -1,10 +1,11 @@
-import { Service, signal } from '@angular/core';
+import { computed, Service, signal } from '@angular/core';
 import { Product } from '../models/product';
 
 @Service()
 export class CartService {
   readonly items = signal<Product[]>([]);
   add(product: Product): void {
-    this.items.set([]);
+    this.items.update((list) => [...list, product]);
   }
+  readonly count = computed(() => this.items().length);
 }

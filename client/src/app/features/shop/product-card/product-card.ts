@@ -15,6 +15,5 @@ export class ProductCard {
   readonly product = input.required<Product>();
   protected addToCart(): void {
     this.cartService.add(this.product());
-    console.log('Im Warenkorb:', this.cartService.items());
   }
 }
