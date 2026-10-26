@@ -1,1 +1,12 @@
-<p>cart-page works!</p>
+<main class="p-5 max-w-6xl mx-auto">
+  <h1 class="text-4xl font-heading text-brand-dark font-semibold">Warenkorb</h1>
+
+  <ul>
+    @for (product of cartService.items(); track product.id) {
+      <li class="flex justify-between border-t border-surface py-3">
+        <span>{{ product.name }}</span>
+        <span class="font-bold">{{ product.price | currency: 'EUR' }}</span>
+      </li>
+    }
+  </ul>
+</main>
