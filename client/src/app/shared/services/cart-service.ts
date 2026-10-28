@@ -8,4 +8,5 @@ export class CartService {
     this.items.update((list) => [...list, product]);
   }
   readonly count = computed(() => this.items().length);
+  readonly total = computed(() => this.items().reduce((sum, product) => sum + product.price, 0));
 }
