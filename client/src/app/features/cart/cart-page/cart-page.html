@@ -3,7 +3,7 @@
 
   <ul>
     @for (product of cartService.items(); track product.id) {
-      <li class="flex justify-between border-t border-surface py-3">
+      <li class="flex justify-between border-b border-surface py-3">
         <span>{{ product.name }}</span>
         <span class="font-bold">{{ product.price | currency: 'EUR' }}</span>
       </li>
