@@ -6,9 +6,14 @@
   } @else {
     <ul>
       @for (item of cartService.items(); track item.product.id) {
-        <li class="flex justify-between border-b border-surface py-3">
+        <li class="flex justify-between items-center border-b border-surface py-3">
           <span>{{ item.product.name }} × {{ item.quantity }}</span>
-          <span class="font-bold">{{ item.product.price * item.quantity | currency: 'EUR' }}</span>
+          <div class="flex items-center gap-4">
+            <span class="font-bold">{{
+              item.product.price * item.quantity | currency: 'EUR'
+            }}</span>
+            <button (click)="cartService.remove(item.product.id)" aria-label="Entfernen">🗑️</button>
+          </div>
         </li>
       }
     </ul>

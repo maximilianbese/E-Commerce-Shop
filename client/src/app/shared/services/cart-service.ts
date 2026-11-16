@@ -25,4 +25,8 @@ export class CartService {
       return [...list, { product, quantity: 1 }];
     });
   }
+
+  remove(productId: string): void {
+    this.items.update((list) => list.filter((item) => item.product.id !== productId));
+  }
 }
