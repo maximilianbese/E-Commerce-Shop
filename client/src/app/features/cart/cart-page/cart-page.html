@@ -7,7 +7,12 @@
     <ul>
       @for (item of cartService.items(); track item.product.id) {
         <li class="flex justify-between items-center border-b border-surface py-3">
-          <span>{{ item.product.name }} × {{ item.quantity }}</span>
+          <div class="flex items-center gap-3">
+            <span>{{ item.product.name }}</span>
+            <button (click)="cartService.decrease(item.product.id)" aria-label="Weniger">−</button>
+            <span>{{ item.quantity }}</span>
+            <button (click)="cartService.add(item.product)" aria-label="Mehr">+</button>
+          </div>
           <div class="flex items-center gap-4">
             <span class="font-bold">{{
               item.product.price * item.quantity | currency: 'EUR'

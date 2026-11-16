@@ -29,4 +29,14 @@ export class CartService {
   remove(productId: string): void {
     this.items.update((list) => list.filter((item) => item.product.id !== productId));
   }
+
+  decrease(productId: string): void {
+    this.items.update((list) =>
+      list
+        .map((item) =>
+          item.product.id === productId ? { ...item, quantity: item.quantity - 1 } : item,
+        )
+        .filter((item) => item.quantity > 0),
+    );
+  }
 }
