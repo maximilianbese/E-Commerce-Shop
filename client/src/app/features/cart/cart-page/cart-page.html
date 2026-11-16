@@ -5,10 +5,10 @@
     <p class="py-5">Dein Warenkorb ist leer.</p>
   } @else {
     <ul>
-      @for (product of cartService.items(); track product.id) {
+      @for (item of cartService.items(); track item.product.id) {
         <li class="flex justify-between border-b border-surface py-3">
-          <span>{{ product.name }}</span>
-          <span class="font-bold">{{ product.price | currency: 'EUR' }}</span>
+          <span>{{ item.product.name }} × {{ item.quantity }}</span>
+          <span class="font-bold">{{ item.product.price * item.quantity | currency: 'EUR' }}</span>
         </li>
       }
     </ul>
