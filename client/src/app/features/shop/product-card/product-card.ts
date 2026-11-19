@@ -3,9 +3,10 @@ import { Button } from '../../../shared/ui/button/button';
 import { Product } from '../../../shared/models/product';
 import { CurrencyPipe } from '@angular/common';
 import { CartService } from '../../../shared/services/cart-service';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  imports: [Button, CurrencyPipe],
+  imports: [Button, CurrencyPipe, RouterLink],
   selector: 'app-product-card',
   styleUrl: './product-card.scss',
   templateUrl: './product-card.html',

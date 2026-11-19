@@ -1,8 +1,12 @@
 <article class="bg-surface rounded-2xl overflow-hidden">
-  <img [src]="product().imageUrl" [alt]="product().name" class="w-full aspect-5/6 object-cover" />
+  <a routerLink="/produkt/{{ product().id }}">
+    <img [src]="product().imageUrl" [alt]="product().name" class="w-full aspect-5/6 object-cover" />
+  </a>
 
   <div class="p-5 flex flex-col gap-2">
-    <h2 class="text-2xl font-heading text-brand-dark font-semibold">{{ product().name }}</h2>
+    <a routerLink="/produkt/{{ product().id }}"
+      ><h2 class="text-2xl font-heading text-brand-dark font-semibold">{{ product().name }}</h2></a
+    >
     <p class="font-semibold text-lg">{{ product().price | currency: 'EUR' }}</p>
     <app-button (click)="addToCart()">In den Warenkorb</app-button>
   </div>
