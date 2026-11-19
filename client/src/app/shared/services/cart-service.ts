@@ -9,7 +9,7 @@ export class CartService {
   readonly count = computed(() => this.items().reduce((sum, item) => sum + item.quantity, 0));
 
   readonly total = computed(() =>
-    this.items().reduce((sum, item) => sum + item.product.price * item.quantity, 0),
+    this.items().reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0),
   );
 
   add(product: Product): void {

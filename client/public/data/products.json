@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "r01",
+    "name": "Leuchthaus",
+    "price": 21.0,
+    "imageUrl": "/images/products/raysin-einzelteile/1a-leuchthaus.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r02",
+    "name": "Sitzbank",
+    "price": 9.0,
+    "imageUrl": "/images/products/raysin-einzelteile/2a-sitzbank.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r03",
+    "name": "Herzlich Willkommen Schild",
+    "price": 11.0,
+    "imageUrl": "/images/products/raysin-einzelteile/3a-herzlich-willkommen-schild.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r04",
+    "name": "Häuserlandschaft im Ring",
+    "price": 7.0,
+    "imageUrl": "/images/products/raysin-einzelteile/4a-haeuserlandschaft-im-ring.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r05",
+    "name": "Haus mit Kerzenloch",
+    "price": 11.0,
+    "imageUrl": "/images/products/raysin-einzelteile/5-haus-mit-kerzenloch.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r06",
+    "name": "Geriffelte Dose mit Deckel",
+    "price": 8.0,
+    "imageUrl": "/images/products/raysin-einzelteile/6-geriffelte-dose-mit-deckel.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r07",
+    "name": "Vase schlicht",
+    "price": 10.0,
+    "imageUrl": "/images/products/raysin-einzelteile/7-vase-schlicht.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r08",
+    "name": "Vase geriffelt",
+    "price": 10.0,
+    "imageUrl": "/images/products/raysin-einzelteile/8-vase-geriffelt.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r09",
+    "name": "Vase lang",
+    "price": 17.0,
+    "imageUrl": "/images/products/raysin-einzelteile/9-vase-lang.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r10",
+    "name": "Vase rund",
+    "price": 9.0,
+    "imageUrl": "/images/products/raysin-einzelteile/10-vase-rund.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r13",
+    "name": "Vase bauchig",
+    "price": 6.0,
+    "imageUrl": "/images/products/raysin-einzelteile/13a-vasen-bauchig.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r14",
+    "name": "Vase / Teelichtvase geriffelt",
+    "price": 6.0,
+    "imageUrl": "/images/products/raysin-einzelteile/14a-vase-teelicht-geriffelt.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r15",
+    "name": "Vase klein",
+    "price": 3.5,
+    "imageUrl": "/images/products/raysin-einzelteile/15a-b-c-vase-klein.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r16",
+    "name": "Haus",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/16a-b-c-haus.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r17",
+    "name": "Vogel",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/17a-b-vogel.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r18",
+    "name": "Mama mit Tochter",
+    "price": 6.0,
+    "imageUrl": "/images/products/raysin-einzelteile/18-mama-mit-tochter.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r19",
+    "name": "Einsteckkreis",
+    "price": 7.0,
+    "imageUrl": "/images/products/raysin-einzelteile/19a-einsteckkreis.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r20",
+    "name": "Schmetterlingskreis",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/20-schmetterlingskreis.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r21",
+    "name": "Hase im Kreis",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/21-hase-im-kreis.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r22",
+    "name": "Vogelkreis",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/22-vogelkreis.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r23",
+    "name": "Luftballon mit 2 Herze",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/23-luftballon-mit-2-herze.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r24",
+    "name": "Luftballon mit 1 Herz",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/24-luftballon-mit-1-herz.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r25",
+    "name": "Herz",
+    "price": 2.0,
+    "imageUrl": "/images/products/raysin-einzelteile/25a-b-c-d-herz.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r26",
+    "name": "Bär mit Ballon",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/26-baer-mit-ballon.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r27",
+    "name": "Vogelhaus",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/27-vogelhaus.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r28",
+    "name": "Teddy",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/28-teddy.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r29",
+    "name": "Ehepaar",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/29a-ehepaar.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r30",
+    "name": "Hausumrandung",
+    "price": 15.0,
+    "imageUrl": "/images/products/raysin-einzelteile/30-hausumrandung.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r31",
+    "name": "Vater",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/31-vater.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r32",
+    "name": "Mutter",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/32-mutter.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r33",
+    "name": "Junge",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/33-junge.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r34",
+    "name": "Mädchen",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/34-maedchen.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r36",
+    "name": "Kirche dünn",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/36-kirche-duenn.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r37",
+    "name": "Haus hoch dünn",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/37-haus-hoch-duenn.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r38",
+    "name": "Haus quer dünn",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/38-haus-quer-duenn.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r39",
+    "name": "Haus dünn mit Herz",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/39-haus-duenn-mit-herz.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r40",
+    "name": "Lokomotive",
+    "price": 6.0,
+    "imageUrl": "/images/products/raysin-einzelteile/40a-b-c-lokomotive.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r41",
+    "name": "Mini Häuser",
+    "price": 2.5,
+    "imageUrl": "/images/products/raysin-einzelteile/41-mini-haeuser.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r42",
+    "name": "Regenbogen mini",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/42-regenbogen-mini.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r43",
+    "name": "Regenbogen lang",
+    "price": 6.0,
+    "imageUrl": "/images/products/raysin-einzelteile/43-regenbogen-lang.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r44",
+    "name": "Regenbogen dick",
+    "price": 18.0,
+    "imageUrl": "/images/products/raysin-einzelteile/44-regenbogen-dick.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r45",
+    "name": "Regenbogentablett",
+    "price": 11.0,
+    "imageUrl": "/images/products/raysin-einzelteile/45-regenbogen-tablett.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r46",
+    "name": "Regenbogentablett groß",
+    "price": 16.0,
+    "imageUrl": "/images/products/raysin-einzelteile/46-regenbogen-tablett-gross.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r47",
+    "name": "Wolkenförmige Schale",
+    "price": 8.0,
+    "imageUrl": "/images/products/raysin-einzelteile/47-wolkenfoermige-schale.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r48",
+    "name": "Ovales Tablett",
+    "price": 6.0,
+    "imageUrl": "/images/products/raysin-einzelteile/48a-b-ovales-tablett.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r49",
+    "name": "Rundes Tablett ohne Loch",
+    "price": 11.0,
+    "imageUrl": "/images/products/raysin-einzelteile/49-rundes-tablett-ohne-loch.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r50",
+    "name": "Rundes Tablett mit Loch",
+    "price": 7.0,
+    "imageUrl": "/images/products/raysin-einzelteile/50a-rundes-tablett-mit-loch.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r51",
+    "name": "Runde gestreifte Tablett form",
+    "price": 11.0,
+    "imageUrl": "/images/products/raysin-einzelteile/51-runde-gestreifte-tablett-form.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r52",
+    "name": "Halbgestreifte Untersetzer",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/52-halbgestreifter-untersetzer.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r53",
+    "name": "Untersetzer glatt",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/53-untersetzer-glatt.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r54",
+    "name": "Untersetzerbehälter für Artikelnr. 53",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/54-untersetzerbehaelter-fuer-artikelnr-53.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r55",
+    "name": "Regenbogenkerzenständer",
+    "price": 7.0,
+    "imageUrl": "/images/products/raysin-einzelteile/55-regenbogenkerzenstaender.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r56",
+    "name": "Kerzenständer 3 Ringe",
+    "price": 8.0,
+    "imageUrl": "/images/products/raysin-einzelteile/56-kerzenstaender-3-ringe.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r57",
+    "name": "Kerzenständer klein",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/57-kerzenstaender-klein.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r58",
+    "name": "Kerzenständer mittel",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/58-kerzenstaender-mittel.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r59",
+    "name": "Kerzenständer trichterförmig",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/59-kerzenstaender-trichterfoermig.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r60",
+    "name": "Kerzenständer mit Schlitz",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/60-kerzenstaender-mit-schlitz.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r61",
+    "name": "Kerzenständer Teelichter",
+    "price": 18.0,
+    "imageUrl": "/images/products/raysin-einzelteile/61-kerzenstaender-teelichter.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r62",
+    "name": "Teelichtständer eckig",
+    "price": 6.0,
+    "imageUrl": "/images/products/raysin-einzelteile/62-teelichtstaender-eckig.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r63",
+    "name": "Teelichtständer rund",
+    "price": 6.0,
+    "imageUrl": "/images/products/raysin-einzelteile/63-teelichtstaender-rund.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r64",
+    "name": "Ständer mit Schlitz ohne Kerze",
+    "price": 3.5,
+    "imageUrl": "/images/products/raysin-einzelteile/64-staender-mit-schlitz-ohne-kerze.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r65",
+    "name": "Ovaler Ständerhalter",
+    "price": 7.0,
+    "imageUrl": "/images/products/raysin-einzelteile/65-ovaler-staenderhalter.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r66",
+    "name": "Leuchthäuser",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/66a-b-c-d-leuchthaeuser.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r67",
+    "name": "Geburtstagstorte",
+    "price": 25.0,
+    "imageUrl": "/images/products/raysin-einzelteile/67a-geburtstagstorte.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r68",
+    "name": "Tannenbaum mit Löcher",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/68a-b-tannenbaum-mit-loechern.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r69",
+    "name": "Tannenbaum",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/69a-b-tannenbaum.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r70",
+    "name": "Hirsch",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/70-hirsch.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r71",
+    "name": "Josef & Maria rund",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/71-josef-und-maria.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r72",
+    "name": "Josef & Maria im Haus",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/72-josef-und-maria-im-haus.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r73",
+    "name": "Winterlandschaft Kreis",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/73-winterlandschaft-kreis.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r74",
+    "name": "2 Schneemänner",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/74-schneemaenner.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r75",
+    "name": "Schneemann",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/75-schneemann.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r76",
+    "name": "Reh klein und groß",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/76a-b-reh-klein-und-gross.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r77",
+    "name": "Sterne",
+    "price": 2.0,
+    "imageUrl": "/images/products/raysin-einzelteile/77a-b-c-sterne.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r78",
+    "name": "Tannenbaum",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/78a-b-c-tannenbaum.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r81",
+    "name": "Stern Kerzenständer",
+    "price": 5.0,
+    "imageUrl": "/images/products/raysin-einzelteile/81-stern-kerzenstaender.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r82",
+    "name": "Schneeflocke Stabkerze",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/82a-schneeflocke-stabkerze.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r83",
+    "name": "Schneeflocke für Teelicht",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/83-schneeflocke-fuer-teelicht.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r84",
+    "name": "Weihnachtsbaumanhänger",
+    "price": 3.0,
+    "imageUrl": "/images/products/raysin-einzelteile/84a-d-weihnachtsanhaenger.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r85",
+    "name": "Weihnachtsbaumanhänger mit Kreis",
+    "price": 4.0,
+    "imageUrl": "/images/products/raysin-einzelteile/85a-b-weihnachtsbaumanhaenger-mit-kreis.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r86",
+    "name": "Krippe klein mit Holzdach",
+    "price": 15.0,
+    "imageUrl": "/images/products/raysin-einzelteile/86-krippe-klein-mit-holzdach.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "r87",
+    "name": "Krippe groß mit Holzdach",
+    "price": 25.0,
+    "imageUrl": "/images/products/raysin-einzelteile/87-krippe-gross-mit-holzdach.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "geburtstagstorte-platte",
+    "name": "Geburtstagstorte Platte",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/geburtstagstorte-platte.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "geburtstagstorte-zahl-10",
+    "name": "Geburtstagstorte Zahl",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/geburtstagstorte-zahl-10.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "haus-fenster-flach",
+    "name": "Haus Fenster Flach",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/haus-fenster-flach.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "haus-flach",
+    "name": "Haus Flach",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/haus-flach.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "haus-herz-streifen-und-hausschale",
+    "name": "Haus Herz Streifen und Hausschale",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/haus-herz-streifen-und-hausschale.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "haus-herzen-und-hausschale",
+    "name": "Haus Herzen und Hausschale",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/haus-herzen-und-hausschale.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "haus-home-und-hausschale",
+    "name": "Haus Home und Hausschale",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/haus-home-und-hausschale.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "haus-sterne-und-hausschale",
+    "name": "Haus Sterne und Hausschale",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/haus-sterne-und-hausschale.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "kerzenhalter-stabkerze-du-bist-wertvoll",
+    "name": "Kerzenhalter Stabkerze du bist Wertvoll",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/kerzenhalter-stabkerze-du-bist-wertvoll.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "kerzenhalter-stabkerze-loved",
+    "name": "Kerzenhalter Stabkerze Loved",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/kerzenhalter-stabkerze-loved.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "kerzenstaender-rund-stabkerze",
+    "name": "Kerzenständer Rund Stabkerze",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/kerzenstaender-rund-stabkerze.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "ovales-tablett-2",
+    "name": "Ovales Tablett",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/ovales-tablett-2.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "ovales-tablett-3",
+    "name": "Ovales Tablett",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/ovales-tablett-3.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "ovales-tablett",
+    "name": "Ovales Tablett",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/ovales-tablett.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "regenbogen-deko",
+    "name": "Regenbogen Deko",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/regenbogen-deko.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "rundes-tablett-flaschenvasen",
+    "name": "Rundes Tablett Flaschenvasen",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/rundes-tablett-flaschenvasen.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "rundes-tablett-rillen-2",
+    "name": "Rundes Tablett Rillen",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/rundes-tablett-rillen-2.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "teelichthalter-rund-flach",
+    "name": "Teelichthalter Rund Flach",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/teelichthalter-rund-flach.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "teelichthalter-rund",
+    "name": "Teelichthalter Rund",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/teelichthalter-rund.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "untersetzer-halbgestreift-4er",
+    "name": "Untersetzer Halbgestreift 4er",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/untersetzer-halbgestreift-4er.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "vase-bauchig-gross",
+    "name": "Vase Bauchig Groß",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/vase-bauchig-gross.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "vase-bauchig-trockenblumen",
+    "name": "Vase Bauchig Trockenblumen",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/vase-bauchig-trockenblumen.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "vasen-origami",
+    "name": "Vasen Origami",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/vasen-origami.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "weihnachtsanhaenger-set",
+    "name": "Weihnachtsanhänger Set",
+    "price": null,
+    "imageUrl": "/images/products/raysin-einzelteile/weihnachtsanhaenger-set.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "adventskerzen-sternhalter",
+    "name": "Adventskerzen Sternhalter",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/adventskerzen-sternhalter.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s302",
+    "name": "Einsteckkreis Schmetterlinge Frühling",
+    "price": 15,
+    "imageUrl": "/images/products/raysin-sets/einsteckkreis-schmetterlinge-fruehling.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s303",
+    "name": "Einsteckkreis Vögel Frühling",
+    "price": 15,
+    "imageUrl": "/images/products/raysin-sets/einsteckkreis-voegel-fruehling.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s301",
+    "name": "Einsteckkreis Vogelhaus Frühling",
+    "price": 15,
+    "imageUrl": "/images/products/raysin-sets/einsteckkreis-vogelhaus-fruehling.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "familie-figuren-baumscheibe",
+    "name": "Familie Figuren Baumscheibe",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/familie-figuren-baumscheibe.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "familie-figuren-holzleiste-familienname",
+    "name": "Familie Figuren Holzleiste Familienname",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/familie-figuren-holzleiste-familienname.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "familie-figuren-holzleiste-meine-familie",
+    "name": "Familie Figuren Holzleiste Meine Familie",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/familie-figuren-holzleiste-meine-familie.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "familie-figuren-holzleiste-vornamen",
+    "name": "Familie Figuren Holzleiste Vornamen",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/familie-figuren-holzleiste-vornamen.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "haeuserreihe-beleuchtet",
+    "name": "Häuserreihe Beleuchtet",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/haeuserreihe-beleuchtet.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "haeuserreihe-weihnachten",
+    "name": "Häuserreihe Weihnachten",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/haeuserreihe-weihnachten.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s310",
+    "name": "Haus Herz Kerzenständer",
+    "price": 8,
+    "imageUrl": "/images/products/raysin-sets/haus-herz-kerzenstaender.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s304",
+    "name": "Hausumrandung Mama Kind Zuhause",
+    "price": 15,
+    "imageUrl": "/images/products/raysin-sets/hausumrandung-mama-kind-zuhause.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s306",
+    "name": "Hausumrandung Mini Häuser Zuhause",
+    "price": 15,
+    "imageUrl": "/images/products/raysin-sets/hausumrandung-mini-haeuser-zuhause.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s305",
+    "name": "Hausumrandung Vogelhaus Zuhause",
+    "price": 15,
+    "imageUrl": "/images/products/raysin-sets/hausumrandung-vogelhaus-zuhause.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s311",
+    "name": "Kerzenring Haus Stabkerze",
+    "price": 10,
+    "imageUrl": "/images/products/raysin-sets/kerzenring-haus-stabkerze.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "krippe-kreis-kerze-frohe-weihnachten",
+    "name": "Krippe Kreis Kerze Frohe Weihnachten",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/krippe-kreis-kerze-frohe-weihnachten.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s323",
+    "name": "Lokomotive Bär Ballon Kerze",
+    "price": 21,
+    "imageUrl": "/images/products/raysin-sets/lokomotive-baer-ballon-kerze.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s325",
+    "name": "Mama Kind Kerze Danke Mama",
+    "price": 6,
+    "imageUrl": "/images/products/raysin-sets/mama-kind-kerze-danke-mama.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s309",
+    "name": "Mini Häuser Holzleiste Bless this Home",
+    "price": 25,
+    "imageUrl": "/images/products/raysin-sets/mini-haeuser-holzleiste-bless-this-home.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s308",
+    "name": "Ovales Tablett Dose Vase Geriffelt",
+    "price": 21,
+    "imageUrl": "/images/products/raysin-sets/ovales-tablett-dose-vase-geriffelt.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "ovales-tablett-kerze-vase",
+    "name": "Ovales Tablett Kerze Vase",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/ovales-tablett-kerze-vase.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "ovales-tablett-kerze-vasen-origami",
+    "name": "Ovales Tablett Kerze Vasen Origami",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/ovales-tablett-kerze-vasen-origami.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "rundes-tablett-kerze-haeuser",
+    "name": "Rundes Tablett Kerze Häuser",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/rundes-tablett-kerze-haeuser.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s307",
+    "name": "Rundes Tablett Kerze Vase Häuser",
+    "price": 35,
+    "imageUrl": "/images/products/raysin-sets/rundes-tablett-kerze-vase-haeuser.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "rundes-tablett-vase-herz-paar",
+    "name": "Rundes Tablett Vase Herz Paar",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/rundes-tablett-vase-herz-paar.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "schneeflocken-teelicht-kerze",
+    "name": "Schneeflocken Teelicht Kerze",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/schneeflocken-teelicht-kerze.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "stern-kerzenhalter-adventszeit",
+    "name": "Stern Kerzenhalter Adventszeit",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/stern-kerzenhalter-adventszeit.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "stern-kerzenhalter-frohe-weihnachten",
+    "name": "Stern Kerzenhalter Frohe Weihnachten",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/stern-kerzenhalter-frohe-weihnachten.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "s329",
+    "name": "Untersetzer mit Behälter",
+    "price": 14,
+    "imageUrl": "/images/products/raysin-sets/untersetzer-mit-behaelter.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "winterlandschaft-reh-tannen",
+    "name": "Winterlandschaft Reh Tannen",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/winterlandschaft-reh-tannen.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "winterlandschaft-tannen-haeuser",
+    "name": "Winterlandschaft Tannen Häuser",
+    "price": null,
+    "imageUrl": "/images/products/raysin-sets/winterlandschaft-tannen-haeuser.webp",
+    "category": "raysin"
+  },
+  {
+    "id": "adventskerzen-kranz-4er",
+    "name": "Adventskerzen Kranz 4er",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/adventskerzen-kranz-4er.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "motivbogen-weihnachten",
+    "name": "Motivbogen Weihnachten",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/motivbogen-weihnachten.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stabkerzen-erzieherinnen-namen",
+    "name": "Stabkerzen Erzieherinnen Namen",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stabkerzen-erzieherinnen-namen.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stabkerzen-segenssprueche",
+    "name": "Stabkerzen Segenssprüche",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stabkerzen-segenssprueche.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stabkerzen-sprueche-opa",
+    "name": "Stabkerzen Sprüche Opa",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stabkerzen-sprueche-opa.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-geburt-affe",
+    "name": "Stumpfkerze Geburt Affe",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-geburt-affe.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-geburt-elefant-giraffe",
+    "name": "Stumpfkerze Geburt Elefant Giraffe",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-geburt-elefant-giraffe.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-geburt-loewe",
+    "name": "Stumpfkerze Geburt Löwe",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-geburt-loewe.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-geburtstag-elefant-ballon",
+    "name": "Stumpfkerze Geburtstag Elefant Ballon",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-geburtstag-elefant-ballon.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-geburtstag-tiere",
+    "name": "Stumpfkerze Geburtstag Tiere",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-geburtstag-tiere.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-goldene-hochzeit",
+    "name": "Stumpfkerze Goldene Hochzeit",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-goldene-hochzeit.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-hochzeit-kranz",
+    "name": "Stumpfkerze Hochzeit Kranz",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-hochzeit-kranz.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-hochzeitstag",
+    "name": "Stumpfkerze Hochzeitstag",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-hochzeitstag.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-kindersegnung",
+    "name": "Stumpfkerze Kindersegnung",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-kindersegnung.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-ruhestand",
+    "name": "Stumpfkerze Ruhestand",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-ruhestand.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-taufe-kranz",
+    "name": "Stumpfkerze Taufe Kranz",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-taufe-kranz.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-taufe-kreuz-rosa",
+    "name": "Stumpfkerze Taufe Kreuz Rosa",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-taufe-kreuz-rosa.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-taufe-kreuz",
+    "name": "Stumpfkerze Taufe Kreuz",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-taufe-kreuz.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-trauer-pusteblume",
+    "name": "Stumpfkerze Trauer Pusteblume",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-trauer-pusteblume.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-trauer-reh",
+    "name": "Stumpfkerze Trauer Reh",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-trauer-reh.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerze-trauer-spruch",
+    "name": "Stumpfkerze Trauer Spruch",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerze-trauer-spruch.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerzen-danke-3er",
+    "name": "Stumpfkerzen Danke 3er",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerzen-danke-3er.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "stumpfkerzen-weihnachten-3er",
+    "name": "Stumpfkerzen Weihnachten 3er",
+    "price": null,
+    "imageUrl": "/images/products/kerzen/stumpfkerzen-weihnachten-3er.webp",
+    "category": "kerzen"
+  },
+  {
+    "id": "schultuete-fahrrad",
+    "name": "Schultüte Fahrrad",
+    "price": null,
+    "imageUrl": "/images/products/plotter/schultuete-fahrrad.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "schultuete-trinkflasche-fahrrad",
+    "name": "Schultüte Trinkflasche Fahrrad",
+    "price": null,
+    "imageUrl": "/images/products/plotter/schultuete-trinkflasche-fahrrad.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "seifenspender-spuelmittel-handseife-braun",
+    "name": "Seifenspender Spülmittel Handseife Braun",
+    "price": null,
+    "imageUrl": "/images/products/plotter/seifenspender-spuelmittel-handseife-braun.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "seifenspender-spuelmittel-handseife-weiss",
+    "name": "Seifenspender Spülmittel Handseife Weiss",
+    "price": null,
+    "imageUrl": "/images/products/plotter/seifenspender-spuelmittel-handseife-weiss.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "socken-du-wirst-papa",
+    "name": "Socken du wirst Papa",
+    "price": null,
+    "imageUrl": "/images/products/plotter/socken-du-wirst-papa.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "socken-du-wirst-tante",
+    "name": "Socken du wirst Tante",
+    "price": null,
+    "imageUrl": "/images/products/plotter/socken-du-wirst-tante.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "socken-ihr-werdet-opa-oma",
+    "name": "Socken ihr werdet Opa Oma",
+    "price": null,
+    "imageUrl": "/images/products/plotter/socken-ihr-werdet-opa-oma.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "trinkflasche-fahrrad",
+    "name": "Trinkflasche Fahrrad",
+    "price": null,
+    "imageUrl": "/images/products/plotter/trinkflasche-fahrrad.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "tshirt-grau-kreuz",
+    "name": "T-shirt Grau Kreuz",
+    "price": null,
+    "imageUrl": "/images/products/plotter/tshirt-grau-kreuz.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "tshirt-oma-namen",
+    "name": "T-shirt Oma Namen",
+    "price": null,
+    "imageUrl": "/images/products/plotter/tshirt-oma-namen.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "tshirt-opa-namen",
+    "name": "T-shirt Opa Namen",
+    "price": null,
+    "imageUrl": "/images/products/plotter/tshirt-opa-namen.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "tshirt-papa-motiv",
+    "name": "T-shirt Papa Motiv",
+    "price": null,
+    "imageUrl": "/images/products/plotter/tshirt-papa-motiv.webp",
+    "category": "plotter"
+  },
+  {
+    "id": "tshirts-opa-oma-set",
+    "name": "T-shirts Opa Oma Set",
+    "price": null,
+    "imageUrl": "/images/products/plotter/tshirts-opa-oma-set.webp",
+    "category": "plotter"
+  }
+]

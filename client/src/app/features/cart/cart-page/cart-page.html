@@ -15,7 +15,7 @@
           </div>
           <div class="flex items-center gap-4">
             <span class="font-bold">{{
-              item.product.price * item.quantity | currency: 'EUR'
+              (item.product.price ?? 0) * item.quantity | currency: 'EUR'
             }}</span>
             <button (click)="cartService.remove(item.product.id)" aria-label="Entfernen">🗑️</button>
           </div>

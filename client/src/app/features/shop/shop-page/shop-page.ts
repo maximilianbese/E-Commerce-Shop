@@ -1,8 +1,8 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { ProductCard } from '../product-card/product-card';
-import { PRODUCTS } from '../../../shared/data/products.data';
 import { Category } from '../../../shared/models/category';
 import { Button } from '../../../shared/ui/button/button';
+import { ProductService } from '../../../shared/services/product-service';
 
 @Component({
   imports: [ProductCard, Button],
@@ -11,6 +11,8 @@ import { Button } from '../../../shared/ui/button/button';
   templateUrl: './shop-page.html',
 })
 export class ShopPage {
+  private readonly productService = inject(ProductService);
+
   protected readonly categories: { label: string; value: Category | null }[] = [
     { label: 'Alle', value: null },
     { label: 'Kerzen', value: 'kerzen' },
@@ -21,7 +23,8 @@ export class ShopPage {
   protected readonly selectedCategory = signal<Category | null>(null);
 
   protected readonly visibleProducts = computed(() => {
+    const products = this.productService.products.value() ?? [];
     const category = this.selectedCategory();
-    return category ? PRODUCTS.filter((product) => product.category === category) : PRODUCTS;
+    return category ? products.filter((product) => product.category === category) : products;
   });
 }
