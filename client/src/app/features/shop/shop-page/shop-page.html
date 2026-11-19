@@ -1,6 +1,17 @@
 <main class="p-5 max-w-6xl mx-auto">
   <h1 class="text-4xl font-heading text-brand-dark font-semibold">Alle Produkte</h1>
 
+  <div class="flex flex-wrap gap-3 pt-5">
+    @for (option of categories; track option.label) {
+      <app-button
+        [variant]="selectedCategory() === option.value ? 'primary' : 'secondary'"
+        (click)="selectedCategory.set(option.value)"
+      >
+        {{ option.label }}
+      </app-button>
+    }
+  </div>
+
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-5">
     @for (product of visibleProducts(); track product.id) {
       <app-product-card [product]="product" />
