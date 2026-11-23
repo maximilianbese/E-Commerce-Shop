@@ -26,5 +26,11 @@
       <span>Gesamt</span>
       <span>{{ cartService.total() | currency: 'EUR' }}</span>
     </p>
+
+    <a
+      routerLink="/kasse"
+      class="block w-fit ml-auto mt-5 bg-brand hover:bg-brand-dark text-white font-bold py-2 px-4 rounded-lg"
+      >Zur Kasse</a
+    >
   }
 </main>
