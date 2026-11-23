@@ -11,7 +11,7 @@ Ein Online-Shop für handgemachte Deko aus Raysin, bedruckte Kerzen und Plotter-
 - [x] Produkt-Detailseite unter `/produkt/:id`
 - [x] Warenkorb mit Mengen (+ / −), Entfernen, Gesamtpreis und Anzeige im Header
 - [x] Produkte werden aus einer JSON-Datei geladen (später: vom Server)
-- [ ] „Preis auf Anfrage“ für Produkte ohne Preis
+- [x] „Preis auf Anfrage“ für Produkte ohne Preis
 - [ ] Checkout-Formular (Name, Adresse)
 - [ ] Startseite und Design-Feinschliff
 - [ ] Online-Demo
@@ -49,8 +49,7 @@ client/src/app/
 │   ├── layout/header/      # Kopfzeile mit Warenkorb-Anzeige
 │   ├── ui/button/          # Knopf-Baustein (primary / secondary)
 │   ├── models/             # Baupläne: Product, CartItem, Category
-│   ├── services/           # CartService (Warenkorb), ProductService (Produkte laden)
-│   └── data/               # alte Testdaten (wird entfernt)
+│   └── services/           # CartService (Warenkorb), ProductService (Produkte laden)
 └── features/               # gehört zu genau einem Bereich
     ├── shop/               # Shop-Seite, Produktkarte, Detailseite
     └── cart/               # Warenkorb-Seite

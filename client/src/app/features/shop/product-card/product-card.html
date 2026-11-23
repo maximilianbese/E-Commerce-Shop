@@ -7,7 +7,12 @@
     <a routerLink="/produkt/{{ product().id }}"
       ><h2 class="text-2xl font-heading text-brand-dark font-semibold">{{ product().name }}</h2></a
     >
-    <p class="font-semibold text-lg">{{ product().price | currency: 'EUR' }}</p>
-    <app-button (click)="addToCart()">In den Warenkorb</app-button>
+
+    @if (product().price !== null) {
+      <p class="font-semibold text-lg">{{ product().price | currency: 'EUR' }}</p>
+      <app-button (click)="addToCart()">In den Warenkorb</app-button>
+    } @else {
+      <p class="font-semibold text-lg">Preis auf Anfrage</p>
+    }
   </div>
 </article>
