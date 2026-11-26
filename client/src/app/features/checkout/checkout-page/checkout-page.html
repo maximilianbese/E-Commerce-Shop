@@ -1,1 +1,32 @@
-<p>checkout-page works!</p>
+<main class="p-5 max-w-xl mx-auto">
+  <h1 class="text-4xl font-heading text-brand-dark font-semibold">Kasse</h1>
+
+  <form [formGroup]="form" class="flex flex-col gap-4 py-5">
+    <label class="flex flex-col gap-1">
+      Name
+      <input formControlName="name" class="border-2 border-surface rounded-lg p-2" />
+    </label>
+
+    <label class="flex flex-col gap-1">
+      E-Mail
+      <input formControlName="email" class="border-2 border-surface rounded-lg p-2" />
+    </label>
+
+    <label class="flex flex-col gap-1">
+      Straße
+      <input formControlName="street" class="border-2 border-surface rounded-lg p-2" />
+    </label>
+
+    <label class="flex flex-col gap-1">
+      PLZ
+      <input formControlName="zip" class="border-2 border-surface rounded-lg p-2" />
+    </label>
+
+    <label class="flex flex-col gap-1">
+      Ort
+      <input formControlName="city" class="border-2 border-surface rounded-lg p-2" />
+    </label>
+
+    <p>Formular gültig: {{ form.valid }}</p>
+  </form>
+</main>
