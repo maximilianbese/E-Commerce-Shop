@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, input, linkedSignal } from '@angular/core';
 import { ProductCard } from '../product-card/product-card';
 import { Category } from '../../../shared/models/category';
 import { Button } from '../../../shared/ui/button/button';
@@ -12,6 +12,7 @@ import { ProductService } from '../../../shared/services/product-service';
 })
 export class ShopPage {
   private readonly productService = inject(ProductService);
+  readonly kategorie = input<Category>();
 
   protected readonly categories: { label: string; value: Category | null }[] = [
     { label: 'Alle', value: null },
@@ -20,8 +21,9 @@ export class ShopPage {
     { label: 'Plotter', value: 'plotter' },
   ];
 
-  protected readonly selectedCategory = signal<Category | null>(null);
-
+  protected readonly selectedCategory = linkedSignal<Category | null>(
+    () => this.kategorie() ?? null,
+  );
   protected readonly visibleProducts = computed(() => {
     const products = this.productService.products.value() ?? [];
     const category = this.selectedCategory();

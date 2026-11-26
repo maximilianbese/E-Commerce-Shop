@@ -20,4 +20,21 @@
       class="w-full max-h-[75vh] object-cover rounded-2xl"
     />
   </section>
+
+  <section class="max-w-6xl mx-auto p-5 py-10">
+    <h2 class="text-3xl font-heading text-brand-dark font-semibold">Unsere Kategorien</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-5">
+      @for (tile of categories; track tile.label) {
+        <a
+          routerLink="/shop"
+          [queryParams]="{ kategorie: tile.value }"
+          class="bg-surface rounded-2xl overflow-hidden"
+        >
+          <img [src]="tile.imageUrl" [alt]="tile.label" class="w-full aspect-square object-cover" />
+          <p class="p-5 text-2xl font-heading text-brand-dark font-semibold">{{ tile.label }}</p>
+        </a>
+      }
+    </div>
+  </section>
 </main>
