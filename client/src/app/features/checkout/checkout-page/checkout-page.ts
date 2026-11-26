@@ -1,8 +1,10 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
+import { CartService } from '../../../shared/services/cart-service';
+import { Button } from '../../../shared/ui/button/button';
 
 @Component({
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, Button],
   selector: 'app-checkout-page',
   styleUrl: './checkout-page.scss',
   templateUrl: './checkout-page.html',
@@ -17,4 +19,17 @@ export class CheckoutPage {
     zip: ['', [Validators.required, Validators.pattern(/^\d{5}$/)]],
     city: ['', Validators.required],
   });
+
+  private readonly cartService = inject(CartService);
+  protected readonly ordered = signal(false);
+
+  protected submit(): void {
+    if (this.form.invalid) {
+      this.form.markAllAsTouched();
+      return;
+    }
+    this.cartService.clear();
+    this.form.reset();
+    this.ordered.set(true);
+  }
 }
