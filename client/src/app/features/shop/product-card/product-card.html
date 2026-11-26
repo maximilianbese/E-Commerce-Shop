@@ -1,18 +1,18 @@
-<article class="bg-surface rounded-2xl overflow-hidden">
+<article class="h-full flex flex-col bg-surface rounded-2xl overflow-hidden">
   <a routerLink="/produkt/{{ product().id }}">
     <img [src]="product().imageUrl" [alt]="product().name" class="w-full aspect-5/6 object-cover" />
   </a>
 
-  <div class="p-5 flex flex-col gap-2">
+  <div class="flex-1 p-3 sm:p-5 flex flex-col gap-2">
     <a routerLink="/produkt/{{ product().id }}"
-      ><h2 class="text-2xl font-heading text-brand-dark font-semibold">{{ product().name }}</h2></a
+      ><h2 class="hyphens-auto break-words text-lg sm:text-2xl font-heading text-brand-dark font-semibold">{{ product().name }}</h2></a
     >
 
     @if (product().price !== null) {
-      <p class="font-semibold text-lg">{{ product().price | currency: 'EUR' }}</p>
+      <p class="mt-auto font-semibold text-base sm:text-lg">{{ product().price | currency: 'EUR' }}</p>
       <app-button (click)="addToCart()">In den Warenkorb</app-button>
     } @else {
-      <p class="font-semibold text-lg">Preis auf Anfrage</p>
+      <p class="mt-auto font-semibold text-base sm:text-lg">Preis auf Anfrage</p>
     }
   </div>
 </article>

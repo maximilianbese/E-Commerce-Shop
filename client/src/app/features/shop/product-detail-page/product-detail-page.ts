@@ -1,12 +1,13 @@
 import { Component, computed, inject, input } from '@angular/core';
 import { CurrencyPipe } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { Product } from '../../../shared/models/product';
 import { CartService } from '../../../shared/services/cart-service';
 import { ProductService } from '../../../shared/services/product-service';
 import { Button } from '../../../shared/ui/button/button';
 
 @Component({
-  imports: [CurrencyPipe, Button],
+  imports: [CurrencyPipe, Button, RouterLink],
   selector: 'app-product-detail-page',
   styleUrl: './product-detail-page.scss',
   templateUrl: './product-detail-page.html',

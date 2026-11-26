@@ -1,35 +1,75 @@
-<main class="p-5 max-w-6xl mx-auto">
-  <h1 class="text-4xl font-heading text-brand-dark font-semibold">Warenkorb</h1>
+<main class="p-5 max-w-3xl mx-auto">
+  <h1 class="text-3xl sm:text-4xl font-heading text-brand-dark font-semibold">Warenkorb</h1>
 
   @if (cartService.count() === 0) {
     <p class="py-5">Dein Warenkorb ist leer.</p>
   } @else {
-    <ul>
+    <ul class="pt-3">
       @for (item of cartService.items(); track item.product.id) {
-        <li class="flex justify-between items-center border-b border-surface py-3">
-          <div class="flex items-center gap-3">
-            <span>{{ item.product.name }}</span>
-            <button (click)="cartService.decrease(item.product.id)" aria-label="Weniger">−</button>
-            <span>{{ item.quantity }}</span>
-            <button (click)="cartService.add(item.product)" aria-label="Mehr">+</button>
-          </div>
-          <div class="flex items-center gap-4">
-            <span class="font-bold">{{
-              (item.product.price ?? 0) * item.quantity | currency: 'EUR'
-            }}</span>
-            <button (click)="cartService.remove(item.product.id)" aria-label="Entfernen">🗑️</button>
+        <li class="flex gap-4 border-b border-surface py-4">
+          <a routerLink="/produkt/{{ item.product.id }}" class="shrink-0">
+            <img
+              [src]="item.product.imageUrl"
+              [alt]="item.product.name"
+              class="size-20 sm:size-24 rounded-lg object-cover"
+            />
+          </a>
+
+          <div class="flex-1 flex flex-col justify-between gap-2">
+            <div class="flex justify-between items-start gap-2">
+              <a
+                routerLink="/produkt/{{ item.product.id }}"
+                class="hyphens-auto break-words font-semibold hover:text-brand"
+                >{{ item.product.name }}</a
+              >
+              <button
+                (click)="cartService.remove(item.product.id)"
+                aria-label="Entfernen"
+                class="shrink-0 p-1 text-brand hover:text-brand-dark"
+              >
+                <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M3 6h18" />
+                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" />
+                  <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="flex justify-between items-center">
+              <div class="flex items-center border-2 border-surface rounded-lg">
+                <button
+                  (click)="cartService.decrease(item.product.id)"
+                  aria-label="Weniger"
+                  class="px-3 py-1 text-lg font-bold text-brand hover:text-brand-dark"
+                >
+                  −
+                </button>
+                <span class="w-8 text-center">{{ item.quantity }}</span>
+                <button
+                  (click)="cartService.add(item.product)"
+                  aria-label="Mehr"
+                  class="px-3 py-1 text-lg font-bold text-brand hover:text-brand-dark"
+                >
+                  +
+                </button>
+              </div>
+              <span class="font-bold">{{
+                (item.product.price ?? 0) * item.quantity | currency: 'EUR'
+              }}</span>
+            </div>
           </div>
         </li>
       }
     </ul>
-    <p class="flex justify-between font-bold text-2xl">
+
+    <p class="flex justify-between font-bold text-2xl pt-5">
       <span>Gesamt</span>
       <span>{{ cartService.total() | currency: 'EUR' }}</span>
     </p>
 
     <a
       routerLink="/kasse"
-      class="block w-fit ml-auto mt-5 bg-brand hover:bg-brand-dark text-white font-bold py-2 px-4 rounded-lg"
+      class="block w-full sm:w-fit sm:ml-auto mt-5 text-center bg-brand hover:bg-brand-dark text-white font-bold py-3 px-6 rounded-lg"
       >Zur Kasse</a
     >
   }

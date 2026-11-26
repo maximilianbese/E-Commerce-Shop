@@ -14,7 +14,8 @@ Ein Online-Shop für handgemachte Deko aus Raysin, bedruckte Kerzen und Plotter-
 - [x] „Preis auf Anfrage“ für Produkte ohne Preis
 - [x] Checkout-Formular mit Prüfung der Eingaben (Name, E-Mail, Adresse)
 - [x] Startseite mit Begrüßung und Kategorie-Kacheln (führen gefiltert in den Shop)
-- [ ] Fußzeile, Design-Feinschliff und Handy-Ansicht
+- [x] Fußzeile mit Impressum und Datenschutz (Inhalte folgen)
+- [x] Für Handys optimiert (2-Spalten-Raster, wischbare Filter, handyfreundliche Kasse)
 - [ ] Online-Demo
 - [ ] Backend (Node.js / Express + PostgreSQL)
 - [ ] Admin-Bereich zum Anlegen und Bearbeiten von Produkten
@@ -47,7 +48,7 @@ Die Seite öffnet sich unter `http://localhost:4200`.
 ```
 client/src/app/
 ├── shared/                 # wird an vielen Stellen gebraucht
-│   ├── layout/header/      # Kopfzeile mit Warenkorb-Anzeige
+│   ├── layout/             # Kopfzeile (header) und Fußzeile (footer)
 │   ├── ui/button/          # Knopf-Baustein (primary / secondary)
 │   ├── models/             # Baupläne: Product, CartItem, Category
 │   └── services/           # CartService (Warenkorb), ProductService (Produkte laden)
@@ -55,7 +56,8 @@ client/src/app/
     ├── home/               # Startseite
     ├── shop/               # Shop-Seite, Produktkarte, Detailseite
     ├── cart/               # Warenkorb-Seite
-    └── checkout/           # Kasse mit Bestellformular
+    ├── checkout/           # Kasse mit Bestellformular
+    └── legal/              # Impressum, Datenschutz
 
 client/public/
 ├── data/products.json      # alle Produkte

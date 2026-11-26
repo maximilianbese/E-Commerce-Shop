@@ -1,16 +1,19 @@
 import { Component, inject, signal } from '@angular/core';
+import { CurrencyPipe } from '@angular/common';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import { CartService } from '../../../shared/services/cart-service';
 import { Button } from '../../../shared/ui/button/button';
 
 @Component({
-  imports: [ReactiveFormsModule, Button],
+  imports: [ReactiveFormsModule, CurrencyPipe, RouterLink, Button],
   selector: 'app-checkout-page',
   styleUrl: './checkout-page.scss',
   templateUrl: './checkout-page.html',
 })
 export class CheckoutPage {
   private readonly formBuilder = inject(FormBuilder);
+  protected readonly cartService = inject(CartService);
 
   protected readonly form = this.formBuilder.nonNullable.group({
     name: ['', Validators.required],
@@ -20,7 +23,6 @@ export class CheckoutPage {
     city: ['', Validators.required],
   });
 
-  private readonly cartService = inject(CartService);
   protected readonly ordered = signal(false);
 
   protected submit(): void {
