@@ -5,26 +5,41 @@
     <label class="flex flex-col gap-1">
       Name
       <input formControlName="name" class="border-2 border-surface rounded-lg p-2" />
+      @if (form.controls.name.invalid && form.controls.name.touched) {
+        <span class="text-sm text-red-700">Bitte gib deinen Namen ein.</span>
+      }
     </label>
 
     <label class="flex flex-col gap-1">
       E-Mail
       <input formControlName="email" class="border-2 border-surface rounded-lg p-2" />
+      @if (form.controls.email.invalid && form.controls.email.touched) {
+        <span class="text-sm text-red-700">Bitte gib eine gültige E-Mail-Adresse ein.</span>
+      }
     </label>
 
     <label class="flex flex-col gap-1">
       Straße
       <input formControlName="street" class="border-2 border-surface rounded-lg p-2" />
+      @if (form.controls.street.invalid && form.controls.street.touched) {
+        <span class="text-sm text-red-700">Bitte gib deine Straße ein.</span>
+      }
     </label>
 
     <label class="flex flex-col gap-1">
       PLZ
       <input formControlName="zip" class="border-2 border-surface rounded-lg p-2" />
+      @if (form.controls.zip.invalid && form.controls.zip.touched) {
+        <span class="text-sm text-red-700">Bitte gib eine PLZ mit 5 Ziffern ein.</span>
+      }
     </label>
 
     <label class="flex flex-col gap-1">
       Ort
       <input formControlName="city" class="border-2 border-surface rounded-lg p-2" />
+      @if (form.controls.city.invalid && form.controls.city.touched) {
+        <span class="text-sm text-red-700">Bitte gib deinen Ort ein.</span>
+      }
     </label>
 
     <p>Formular gültig: {{ form.valid }}</p>
